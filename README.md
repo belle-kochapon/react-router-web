@@ -34,6 +34,12 @@ The `App.tsx` file defines the following routes:
 -   `<Route path="/news/:slug/:id" element={<News></News>}></Route>`: Defines a dynamic route for the news page. `:slug` and `:id` are URL parameters that can be accessed within the `News` component.
 -   `<Route path="*" element={<Notfound></Notfound>}></Route>`: This is a catch-all route. If the user navigates to a path that doesn't match any of the above routes, the `Notfound` component will be rendered.
 
+![Homepage](image.png)
+![Form page](image-1.png)
+![Route path](image-2.png)
+![Not found page](image-3.png)
+
+
 ## Setup and Usage
 
 ## Setup and Usage (Vite)
