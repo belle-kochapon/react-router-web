@@ -34,15 +34,7 @@ The `App.tsx` file defines the following routes:
 -   `<Route path="/news/:slug/:id" element={<News></News>}></Route>`: Defines a dynamic route for the news page. `:slug` and `:id` are URL parameters that can be accessed within the `News` component.
 -   `<Route path="*" element={<Notfound></Notfound>}></Route>`: This is a catch-all route. If the user navigates to a path that doesn't match any of the above routes, the `Notfound` component will be rendered.
 
-![image](https://github.com/user-attachments/assets/9507ca95-c8ed-4bb3-8f9e-cfde47220cc9)
-![image](https://github.com/user-attachments/assets/32f25e9e-2da8-4d2a-804d-3c4bfc422adf)
-![image](https://github.com/user-attachments/assets/e6d8ca76-4de1-46d0-943a-3f615e5c462a)
-![image](https://github.com/user-attachments/assets/1281fb1e-ac26-4838-a606-1f060362b8af)
-
-
 ## Setup and Usage
-
-## Setup and Usage (Vite)
 
 To run this application:
 
@@ -82,3 +74,8 @@ To run this application:
 -   The comment in `WrappedApp.tsx` mentions that `<HashRouter>` can be used instead of `<BrowserRouter>` for older browsers (like Internet Explorer). `HashRouter` uses the hash portion of the URL for routing (`/#/login`), while `BrowserRouter` uses clean URLs (`/login`).
 -   The `Login` component shows how to use the `Link` component from `react-router-dom` to create navigation links between different routes.
 -   The `News` component (though not shown) would typically use the `useParams` hook from `react-router-dom` to access the `slug` and `id` parameters from the URL.
+
+![image](https://github.com/user-attachments/assets/9507ca95-c8ed-4bb3-8f9e-cfde47220cc9)
+![image](https://github.com/user-attachments/assets/32f25e9e-2da8-4d2a-804d-3c4bfc422adf)
+![image](https://github.com/user-attachments/assets/e6d8ca76-4de1-46d0-943a-3f615e5c462a)
+![image](https://github.com/user-attachments/assets/1281fb1e-ac26-4838-a606-1f060362b8af)
