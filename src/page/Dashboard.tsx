@@ -1,16 +1,15 @@
-import React from 'react'
+import { Link } from "react-router-dom";
 
 function Dashboard() {
-  let isLogin: boolean = false;
-  isLogin = true;
-
-// EX. Conditional Rendering
   return (
     <div>
         <h1>Dashboard</h1>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus aliquid minus eum vitae? Sequi, autem! Nesciunt, illum itaque labore dolor quasi corporis placeat tempore facilis, nam, at quo praesentium animi!
-    {/* If-else Short version */}
-    {isLogin ? <h1>Logged In</h1> : <h1>Logged Out</h1>}
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus aliquid minus eum vitae? Sequi, autem! Nesciunt, illum itaque labore dolor quasi corporis placeat tempore facilis, nam, at quo praesentium animi!
+        </p>
+        <Link to="login">
+        <button>Login</button>
+        </Link>
     </div>
   ); 
 

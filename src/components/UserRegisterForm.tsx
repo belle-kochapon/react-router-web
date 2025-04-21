@@ -26,15 +26,17 @@ function UserRegisterForm() {
         <label htmlFor="">Email:</label>
         <input {...register("email")} type="text" id="email" />
         <label htmlFor="">Password:</label>
-        <input {...register("password")} type="password" id="password" />  
+        <input {...register("password")} type="password" id="password" /> 
         <label htmlFor="">Confirm Password:</label>
         <input {...register("confirmPassword")} type="text" id="confirmPassword" />
         <label htmlFor="">Full name:</label>
         <input {...register("fullname")} type="text" id="fullname" />
         <label htmlFor="">Surname:</label>
-        <input {...register("surname")} type="text" id="surname" />        
+        <input {...register("surname")} type="text" id="surname" /> 
         <input type="submit" value="Submit" />
     </form>
+    {/* HTML link tag : cannot use in React file without React Route */}
+    <a href="google.com">Link to Google</a>
     </>
     );
 }
